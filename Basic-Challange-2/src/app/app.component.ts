@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'basicChallange3';
+  value = ""
+  isDisabled = true
+
+  reset(){
+    this.value = ""
+  }
 }
